@@ -7,7 +7,7 @@ Version Tablette ✅
 Version Mobile ✅
 
 ## Technologies
-Technologie Frontend utilisée : ReactJS
+Technologie Frontend utilisée : ReactJS  
 Technologies Backend utilisées: ExpressJS, NodeJS, MySQL 
 
 ## Fonctionnalitées 
@@ -27,14 +27,14 @@ Installez les dépendances nécessaire set démarrez le serveur.
 Fichiers Backend: [Backend](https://github.com/yanisse-saddek/color-telecom-back)
 
 ```sh
-cd telecom-frontend
+cd color-telecom-frontend
 npm i
 npm start
 ```
 
 Pour le backend: 
 ```sh
-cd telecom-backend
+cd color-telecom-backend
 npm i
 node index.js
 ```
