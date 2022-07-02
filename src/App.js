@@ -26,7 +26,7 @@ useEffect(()=>{
 },[])
 
 const getData = ()=>{
-  axios.get('http://localhost:3002/openings').then(data=>{
+  axios.get('https://color-telecom-back.herokuapp.com/openings').then(data=>{
       if(data.data[0]){
         setExistBd(true)
         setListOpening(JSON.parse(data.data[0].horaires));
@@ -63,12 +63,12 @@ const saveData = (num, data, reset)=>{
 const saveToDB = ()=>{
   console.log(listOpening)
   if(existBd){
-    axios.put('http://localhost:3002/openings', listOpening).then(ok=>{
+    axios.put('https://color-telecom-back.herokuapp.com/openings', listOpening).then(ok=>{
       getData()
       console.log('ca a fais le put')
     })
   }else{
-    axios.post('http://localhost:3002/openings', listOpening).then(ok=>{
+    axios.post('https://color-telecom-back.herokuapp.com/openings', listOpening).then(ok=>{
       getData()
       console.log('"ca fais le post')
     })
