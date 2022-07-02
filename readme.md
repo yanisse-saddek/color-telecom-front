@@ -2,9 +2,9 @@
 ## Compatibilitée
 L'application a été developpée de manière à être responsive sur mobile et tout autre écran.
 
-Version Desktop ✅ 
-Version Tablette ✅ 
-Version Mobile ✅
+Version Desktop ✅   
+Version Tablette ✅    
+Version Mobile ✅   
 
 ## Technologies
 Technologie Frontend utilisée : ReactJS  
