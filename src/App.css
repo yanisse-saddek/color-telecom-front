@@ -152,12 +152,14 @@
 }
 .content .content-info .list-opening .opening .opening-left .reset-msg{
     color:#9F9B9B;
+    cursor: pointer;
     font-size: 0.9rem;
 }
 .content .content-info .list-opening .opening .opening-left .delete-msg{
     color:#F74A53;
     font-size: 0.9rem;
     font-weight: bold;
+    cursor: pointer;
 }
 .content .content-info .list-opening .opening .opening-left .days{
     display: flex;
@@ -176,6 +178,7 @@
     justify-content: center;
     color:white;
     margin-right:5px;
+    cursor: pointer;
 }
 .content .content-info .list-opening .opening .opening-left .days .actif{
     background-color: #F74A53;
@@ -288,13 +291,15 @@ input[type="range"]::-webkit-slider-thumb {
     align-items: center;
 }
 .add-btn{
-    color:#264A6E
+    color:#264A6E;
+    cursor:pointer
 }
 .save-btn{
     color:white;
     background-color:#F74A53;
     padding:10px;
     border-radius: 5px;
+    cursor:pointer
 }
 
 @media  (max-width:880px) {
@@ -315,9 +320,11 @@ input[type="range"]::-webkit-slider-thumb {
     }
     .reset-msg{
         font-size:0.8rem !important;
+        cursor: pointer;
     }
     .delete-msg{
         font-size:0.8rem !important;
+        cursor: pointer;
     }
     .footer-msg .msg-body{
         flex-direction: column;
@@ -429,4 +436,5 @@ input[type="range"]::-webkit-slider-thumb {
     background-color: #F74A53;
     color:white;
     border-radius: 5px;
+    cursor: pointer;
 }
